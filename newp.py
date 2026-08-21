@@ -74,6 +74,17 @@ list=[object1,object2]
 for item in list:
     if item.name==var_input:
         print(item.age)
+#################
+# dict_score = {
+#     "mehran":300,
+#     "sara":150,
+#     "mahsa":200,
+#     "parsa":80
+# }
+# varSort= sorted(dict_score.items(), key=lambda x: x[1])
+# print(varSort)
+# varSor2= sorted(dict_score.items(), key=lambda x: x[1], reverse=True)
+# print( varSor2)
 
 
 
