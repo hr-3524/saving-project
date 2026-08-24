@@ -42,5 +42,4 @@ print(f"\n {fighters[0]} vs {fighters[1]}")
 
 print("HI")
 
-
 #################
