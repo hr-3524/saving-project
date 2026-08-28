@@ -40,6 +40,12 @@ for i in range(2):
             print(f" {clean_name}: Total: {total}")
 print(f"\n {fighters[0]} vs {fighters[1]}")
 
-print("HI")
+print("my name is Rahnama")
+
+# random test
+# nkjnknjknn;
+# j
+# jopjjmpoj
+# kkkjkjpo
 
 #################
