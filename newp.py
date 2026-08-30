@@ -90,16 +90,6 @@ for item in list:
 
 
 
-
-
-
-
-
-
-
-
-
-
 # for shomaresh, vlue_list in enumerate(list_Characters,start=1):
 #     print(shomaresh, vlue_list)
 
