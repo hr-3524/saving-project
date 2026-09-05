@@ -20,7 +20,7 @@
 #     for j in range(m):
 #          print(i+j)
 #####################
-n=10
+n=5
 for i in range(n):
     star=" *"*i
     space=" " * (n-i)
