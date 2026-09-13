@@ -2,30 +2,13 @@
 # while n > 0:
 #     print("*" * n )
 #     n -= 1
-##############
-# for i in range(10):
-#     print("*" * i )
-#     i-=1
-
-############
-# for x in range(2):
-#     for i in range(1,10):
-#         while i-1==0:
-#             print("*",end=" ")
-#     print("\n")
-#############
-# m=10
-# for i in range(m):
-#     print("*")
-#     for j in range(m):
-#          print(i+j)
 #####################
-n=5
-for i in range(n):
-    star=" *"*i
-    space=" " * (n-i)
-    print(space+star)
-# "ما یه حلقه تکرا داریم یعنی تعداد بار های تکرار که اسمشو i میذاریم
+# n=5
+# for i in range(n):
+#     star=" *"*i
+#     space=" " * (n-i)
+#     print(space+star)
+# # "ما یه حلقه تکرا داریم یعنی تعداد بار های تکرار که اسمشو i میذاریم
 # حالا
 #
 # که i رو هر عدیی بذاریم به همون مقدار خط میسازه
@@ -42,8 +25,17 @@ for i in range(n):
 # در اخر
 # 5-5=0 بدون فاصله
 # و….
-#
-#
 # و برای تعداد صحیح ستاره ها که تو خط دوم ۳ تاشه و در خط اهر 5تا
 # ستاره ها i برابر شن
 # یعنی ضرب شه در i"
+############################
+def how_to_enumrate():
+    print("روش اول: داخل لیست")
+    list1=["asus","touph","Rog"]
+    print(list(enumerate(list1)))
+    print("روش دوم: خارج از لیست")
+    for enu,value in enumerate(list1,start=1):
+        print(enu,value)
+    #     var_enumrate=list(enumerate(value))
+    #     print(var_enumrate)
+how_to_enumrate()
