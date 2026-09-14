@@ -27,7 +27,10 @@ def p1():
             list_Book.append(list_input)
 ###########################
         elif var_input == 5:
-            var_dr = list_Book.pop(int(input("enter the new valiu of list:")))
+            result=list(enumerate(list_Book,start=0))
+            print(f"{Fore.RED}{result}{Fore.RESET}")
+            var_dr = list_Book.pop(int(input(f"enter index number u want to {Back.RED}{Fore.BLACK} DELETE {Back.RESET}{Fore.RESET} : ")))
+
             print(list_Book)
 ##############################
         elif var_input == 6:
@@ -45,7 +48,7 @@ def p1():
                 list_price.append(input_price)
             result=[print(f"  {i} {Fore.YELLOW} {B} = {P} {Fore.RESET}" ,end="  | ")for i,(B,P) in
             enumerate(zip(list_Book,list_price),start=1)]
-    ###############################
+###############################
         elif var_input == 8:
             if not list_price:
                 print("/ * enter the price value * /")
