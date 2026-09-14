@@ -29,14 +29,22 @@
 # ستاره ها i برابر شن
 # یعنی ضرب شه در i"
 ############################
-def how_to_enumrate():
-    print("روش اول: داخل لیست")
-    list1=["asus","touph","Rog"]
-    print(list(enumerate(list1)))
-    print("روش دوم: خارج از لیست")
-    for enu,value in enumerate(list1,start=1):
-        print(enu,value)
-    #     var_enumrate=list(enumerate(value))
-    #     pint(var_enumrate)
-how_to_enumrate()
-
+# def how_to_enumrate():
+#     print("روش اول: داخل لیست")
+#     list1=["asus","touph","Rog"]
+#     print(list(enumerate(list1)))
+#     print("روش دوم: خارج از لیست")
+#     for enu,value in enumerate(list1,start=1):
+#         print(enu,value)
+#     #     var_enumrate=list(enumerate(value))
+#     #     pint(var_enumrate)
+# how_to_enumrate()
+#############################
+# list1=["asus","touph","Rog"]
+# for i,value in enumerate(list1):
+#     list1[i] = f"{i} '{list1[i]}'"
+#     print(list1)
+#################################
+list1 = ["asus", "touph", "Rog"]
+resulit = list(enumerate(list1, start=1))
+print(resulit)
